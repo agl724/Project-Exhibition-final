@@ -1,0 +1,144 @@
+.navbar{
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    height: 100px;
+}
+
+.navbar-brand{
+    font-weight: 600;
+    font-style: italic;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.nav-link{
+    color: white;
+}
+
+.srch{
+    /* position: flex; */
+    display: inline-flex;
+    width: 800px;
+    margin-right: 200px;
+}
+
+.hello{
+    border: 1px solid transparent;
+    border-radius: 50px;
+    height: 45px;
+}
+
+.hello::placeholder{
+    color: #55D6BE;
+    font-weight: 600;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.srch .btn{
+    border: 1px solid transparent;
+    font: 500;
+    border-radius: 50px;
+    background-color: #FC6471;
+    color: white;
+}
+
+.utilities{
+    display: inline-flex;
+    margin-right: 10px;
+}
+
+.account{
+    display: flex;
+    position: relative;
+    right: 20px;
+    text-decoration: none;
+    color: white;
+    flex-direction: column;
+    /* height: 0px; */
+    width: 60px;
+    font-size: 10px;
+    align-items: center;
+    font-weight: 600;
+}
+
+.account:hover {
+    transform: scale(1.1);
+}
+
+.cart{
+    display: flex;
+    position: relative;
+    right: 100px;
+    text-decoration: none;
+    color: white;
+    flex-direction: column;
+    /* height: 0px; */
+    width: 60px;
+    font-size: 10px;
+    align-items: center;
+    font-weight: 600;
+}
+
+.cart:hover{
+    transform: scale(1.1);
+}
+
+.btn:hover{
+    background-color: #fe7d88;
+    transform: scale(1.1);
+}
+
+.lnks{
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+}
+
+.lnks:hover{
+    color: #DDDDDD;
+}
+
+.hero-container {
+    position: relative;
+    display: block;
+    top: 100px;
+    height: 1px;
+    /* z-index: 100; */
+    text-align: center;
+}
+
+.hero-text{ 
+    font-family: 'Pacifico', cursive;;
+    /* font-style: italic; */
+    font-size: 25px;
+    color: #FC6471;
+}
+
+
+@media (max-width: 1475px) {
+    .lnks{
+        display: none;
+    }
+}
+
+@media (max-width: 997px){
+    .btn,.hello,.account,.cart{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
